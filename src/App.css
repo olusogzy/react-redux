@@ -1,0 +1,35 @@
+body{
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  background-color: black;
+  /* background-image: url("./images/pple.jpeg"); */
+}
+
+.form-color{
+  color: white;
+}
+.form-dev{
+  display: flex;
+  align-items: center;
+
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
+.details-form{
+  display: flex;
+  flex-direction: column;
+}
+.details-form input{
+  width: 200px;
+}
+.details-form textarea{
+  width: 200px;
+}
+.details-form button{
+  width: 50px;
+}
